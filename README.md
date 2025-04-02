@@ -41,6 +41,9 @@ python upload.py \
 - 批次上傳：可將此腳本結合 `for` 迴圈或資料夾掃描
 - 與 pipeline 整合：可用於 AI 預測前置步驟（如上傳切片）
 
----
-
-歡迎 Fork 或 PR 改善功能 🎉
+本檔案範例需使用固定版本 (此方案是替換官網用 pip install cytomine-api)
+安裝 Cytomine-python-client-master.zip
+調整 collection.py
+找出 
+C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\cytomine\models\[collection.py](http://collection.py/)
+修改 from collections**.abc** import MutableSequence
